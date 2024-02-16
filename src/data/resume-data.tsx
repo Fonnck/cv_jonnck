@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "As a Frontend Developer, I have successfully taken multiple projects from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React + TypeScript, using Vite or Astro as a Framework. I have over 2.5 years of experience in Frontend World.",
   avatarUrl: "https://cdn.leonardo.ai/users/a2cfe853-60d5-4f46-9ed8-f8834e46a580/generations/812764ed-17d9-465c-8cf5-96bebcc3cde8/Default_8k_LinkedIn_professional_profile_photo_of_fonnk_in_a_s_0.jpg",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://main--fonnck-portfolio.netlify.app/",
   contact: {
     email: "jfonnck@gmail.com",
     tel: "+573212250857",
