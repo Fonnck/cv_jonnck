@@ -107,6 +107,7 @@ export const RESUME_DATA = {
     "Tailwind CSS",
     "Zunstand",
     "TanStack",
+    "Hooks/CustomHooks",
   ],
   projects: [
     {
