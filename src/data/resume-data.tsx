@@ -105,17 +105,19 @@ export const RESUME_DATA = {
     "CSS3",
     "Framer Motion",
     "Tailwind CSS",
+    "Zunstand",
+    "TanStack",
   ],
   projects: [
     {
       title: "Fonnck.me",
-      techStack: ["Astro", "React", "CSS", "Framer Motion"],
+      techStack: ["Astro", "React", "CSS", "Framer Motion", ""],
       description:
-        "My personal portfolio website. Built with Astro + React and Framer Motion",
+        "My personal portfolio website. Built with Astro + React and Framer Motion (Still on develop)",
       logo: JarockiMeLogo,
       link: {
         label: "dc_portfolio",
-        href: "https://jarocki.me/",
+        href: "https://fonnck-portfolio.netlify.app/",
       },
     },
     {
