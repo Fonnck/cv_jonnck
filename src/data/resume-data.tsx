@@ -114,7 +114,7 @@ export const RESUME_DATA = {
       title: "Fonnck.me",
       techStack: ["Astro", "React", "CSS", "Framer Motion", ""],
       description:
-        "My personal portfolio website. Built with Astro + React and Framer Motion (Still on develop)",
+        "My personal portfolio website. Built with Astro + React and Framer Motion (Still on development)",
       logo: JarockiMeLogo,
       link: {
         label: "dc_portfolio",
