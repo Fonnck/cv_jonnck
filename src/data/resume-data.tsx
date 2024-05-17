@@ -107,6 +107,7 @@ export const RESUME_DATA = {
     }
   ],
   skills: [
+    "My English level is B2. I am able to interact with native speakers with a sufficient degree of fluency and naturalness, ensuring that communication occurs effortlessly for all parties involved.",
     "Proficient in React.js, TypeScript, JavaScript, HTML, CSS.",
     "Experience with Vue.js, Astro, Next.js, Nuxt, and other frontend frameworks.",
     "Strong understanding of web standards and responsive design principles",
