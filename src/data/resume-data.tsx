@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Frontend Developer focused on building products with extra attention to detail",
   summary:
-    "As a Frontend Developer, I have successfully taken multiple projects from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React + TypeScript, using Vite or Astro as a Framework. I have over 2.5 years of experience in Frontend World.",
+    "Experienced Frontend Developer with over 3 years of hands-on experience in building responsive web applications. Proficient in React.js, TypeScript, and other frontend technologies, with a keen eye for detail and a passion for creating exceptional user experiences. Adept at implementing reusable components and utilizing systems design as a software architectural fundamental to optimize development time. Strong believer in the importance of planning as a guide to follow and overview of projects or milestones, ensuring successful outcomes.",
   avatarUrl: "https://cdn.leonardo.ai/users/a2cfe853-60d5-4f46-9ed8-f8834e46a580/generations/812764ed-17d9-465c-8cf5-96bebcc3cde8/Default_8k_LinkedIn_professional_profile_photo_of_fonnk_in_a_s_0.jpg",
   personalWebsiteUrl: "https://main--fonnck-portfolio.netlify.app/",
   contact: {
@@ -68,19 +68,26 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "2023",
       end: "Current",
-      description:
-        "Implemented new features on ERP software, led squad, worked on improving the way developers ship the code. Worked on online loan web application. Technologies: React, TypeScript",
+      description: [
+        'Developed and maintained new features on ERP software',
+      ]
+      /* description:
+        "Implemented new features on ERP software, led squad, worked on improving the way developers ship the code. Worked on online loan web application. Technologies: React, TypeScript", */
     },
     {
       company: "Traktor Digital Solutions Spa (Agrak)",
       link: "https://agrak.com/",
       badges: ["Remote"],
-      title: "Junior Frontend Developer",
+      title: "React Frontend Developer",
       logo: ClevertechLogo,
       start: "2022",
       end: "2023",
-      description:
-        "Co-created web app called Agrak which provides comprehensive, sturdy, and easy-to-use solutions for digitizing most of agricultural operations. Applying and strengthening my knowledge in React and design patterns such as Micro-frontends with Microservices. Technologies: React, TypeScript, Nest.js",
+      description: [
+        'Landing page Agrak',
+        'Web Plattaform'
+      ]
+      /*  description:
+         "Co-created web app called Agrak which provides comprehensive, sturdy, and easy-to-use solutions for digitizing most of agricultural operations. Applying and strengthening my knowledge in React and design patterns such as Micro-frontends with Microservices. Technologies: React, TypeScript, Nest.js", */
     },
     {
       company: "Advantage Microsystems Col",
@@ -90,24 +97,35 @@ export const RESUME_DATA = {
       logo: JojoMobileLogo,
       start: "2021",
       end: "2022",
-      description:
-        "Built a BPM engine web platform to model procedures for weapons acquisition in the Colombian Army. I participated creating a web application to provide online legal advice for the acquisition of military housing from scratch. Technologies: React, TypeScript, Angular",
+      description: [
+        'I worked on the design and implementation of a web platform for the management of procedures for the DCCA (Colombia, Department of Guns and Explosives Control). Among my notable contributions are the creation of a module for biometric authentication, and the integration of flow control through a BPM engine.',
+        'Co-worked redesign of a shift management system, improving its appearance and optimizing its functionalities. I contributed to the team with a positive attitude and by providing new ideas to enhance the product, resulting in an increase in sales.',
+        'Collaborated with designers and backend developers to implement new features and enhancements',
+      ]
     }
   ],
   skills: [
+    "Proficient in React.js, TypeScript, JavaScript, HTML, CSS.",
+    "Experience with Vue.js, Astro, Next.js, Nuxt, and other frontend frameworks.",
+    "Strong understanding of web standards and responsive design principles",
+    "Ability to translate Figma designs into pixel-perfect web pages",
+    "Excellent problem-solving skills and ability to work in a fast-paced environment",
+    "Strong communication and collaboration skills, with a proven track record of working effectively in cross-functional teams.",
+    "Perfect understanding of UX/UI principles.",
+    "Skilled in Scrum methodology, with experience in agile project management practices.",
+    "Experience with continuous integration technologies and best practices",
+  ],
+  technologies: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Astro",
+    "React/Next.js/Astro,Vue.js",
     "Node.js",
     "Nest.js",
-    "Responsive Design",
-    "UX/UI",
     "CSS3",
     "Framer Motion",
     "Tailwind CSS",
     "Zunstand",
     "TanStack",
-    "Hooks/CustomHooks",
   ],
   projects: [
     {
@@ -177,3 +195,6 @@ export const RESUME_DATA = {
     },
   ],
 } as const;
+
+
+

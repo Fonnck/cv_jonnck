@@ -8,6 +8,8 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { FaCode } from "react-icons/fa6";
+import { DiCode } from "react-icons/di";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -99,6 +101,31 @@ export default function Page() {
           </p>
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">Technologies</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.technologies.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Skills</h2>
+          <div className="flex flex-wrap leading-6">
+            <ul className="list-disc">
+              {RESUME_DATA.skills.map((skill, i) => (
+                <li key={i} className="ms-4 flex gap-3">
+                  <FaCode className="flex-shrink-0 text-xs mt-1" />
+                  <div className="flex-grow">
+                    <p className="text-pretty font-mono text-sm text-muted-foreground">
+                      {skill}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Section>
+        <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
@@ -131,8 +158,20 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {work.description}
+                <CardContent className="mt-2 text-xs mb-2">
+                  <ul className="list-disc">
+                    {work.description.map((item, i) => (
+                      <li key={i} className="ms-4 flex gap-1">
+                        <DiCode className="flex-shrink-0 mt-1" />
+                        <div className="flex-grow">
+                          <p className="text-pretty font-mono text-sm text-muted-foreground">
+                            {item}
+                          </p>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+
                 </CardContent>
               </Card>
             );
@@ -158,15 +197,6 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
-        </Section>
-
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
@@ -197,6 +227,6 @@ export default function Page() {
           })),
         ]}
       />
-    </main>
+    </main >
   );
 }
