@@ -70,6 +70,8 @@ export const RESUME_DATA = {
       end: "Current",
       description: [
         'Developed and maintained new features on ERP software',
+        'Led the frontend development team in executing three projects simultaneously. I planned sprints according to the schedule, enabling effective communication and synchronized integration with the backend and design teams to deliver high-quality products within the established timelines.',
+        'Participated in the creation of a web portal for quick small loans. The portal managed applicant evaluation and approved or rejected the loan based on set parameters. It also allowed for simulation of different types of loans offered by the entity and included an e-commerce section where purchases were offered as credit products by the entity.',
       ]
       /* description:
         "Implemented new features on ERP software, led squad, worked on improving the way developers ship the code. Worked on online loan web application. Technologies: React, TypeScript", */
@@ -83,8 +85,8 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2023",
       description: [
-        'Landing page Agrak',
-        'Web Plattaform'
+        'I had the opportunity to participate in the creation of the innovative Agrak platform, a web solution designed to manage, administer, and supervise field processes and tasks.',
+        'I actively participated in the implementation of the various features offered by the platform, translating Figma designs into interfaces with careful attention to detail. I utilized architectures such as BFF and design systems, which allowed for accelerated development and the implementation of 70% of the web application in a record time of 6 months.'
       ]
       /*  description:
          "Co-created web app called Agrak which provides comprehensive, sturdy, and easy-to-use solutions for digitizing most of agricultural operations. Applying and strengthening my knowledge in React and design patterns such as Micro-frontends with Microservices. Technologies: React, TypeScript, Nest.js", */
@@ -158,7 +160,7 @@ export const RESUME_DATA = {
       title: "Forpo Plus",
       techStack: ["Side Project", "TypeScript", "Vite", "React", "Boostrap5", "Responsive"],
       description:
-        "Online loan web application snd lading page",
+        "Online loan web application and lading page",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
